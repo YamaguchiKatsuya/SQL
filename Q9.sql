@@ -1,0 +1,1 @@
+select category_name, sum(item_price) as total_price from item,item_category where item.category_id=item_category.category_id group by item.category_id order by 

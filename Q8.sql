@@ -1,0 +1,1 @@
+select item_id,item_name,item_price,category_name from item,item_category where item.category_id=item_category.category_id;

@@ -1,0 +1,1 @@
+create table practice.item_category(category_id int not null primary key,category_name varchar(256));
